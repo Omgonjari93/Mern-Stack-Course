@@ -1,0 +1,23 @@
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: #f8fafc;
+    color: #1f2937;
+}
+
+
+.navbar {
+    background-color: #327ce8;
+}
+
+
+.hero-section {
+    background-color:#89bae6;
+    height: 250px       
+}
+
+.section-title{
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 2.3rem;
+    color: gray;
+}
