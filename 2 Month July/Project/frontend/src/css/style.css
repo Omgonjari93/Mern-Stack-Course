@@ -1,0 +1,59 @@
+.logo-google{
+    width: 10%;
+}
+
+.Login-page{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-btn{
+    background: #808Dfb;
+}
+
+.instagram-icon{
+    width: 30%;
+}
+
+.form-group{
+    background: #FAFAFAFA !important;
+}
+
+.Register-page{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.register-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-btn{
+     background: #808Dfb;
+     
+}
+
+.text-align{
+    align-items: center;
+}
+ .container{
+   
+ }
+ 
+ .card{
+    align-items: center;
+    
+ }
