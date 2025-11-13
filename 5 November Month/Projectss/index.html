@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recent Invoices</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="invoice-container">
+        <h2>Recent Invoices</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Invoice ID</th>
+                    <th>Customer</th>
+                    <th>Amount</th>
+                    <th>Status</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>INV001</td>
+                    <td>John Doe</td>
+                    <td>$500</td>
+                    <td><span class="status paid">Paid</span></td>
+                    <td>2025-03-25</td>
+                </tr>
+                <tr>
+                    <td>INV002</td>
+                    <td>Jane Smith</td>
+                    <td>$750</td>
+                    <td><span class="status pending">Pending</span></td>
+                    <td>2025-03-24</td>
+                </tr>
+                <tr>
+                    <td>INV003</td>
+                    <td>Acme Corp</td>
+                    <td>$1,200</td>
+                    <td><span class="status overdue">Overdue</span></td>
+                    <td>2025-03-20</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>
